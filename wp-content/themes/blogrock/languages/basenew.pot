@@ -1,0 +1,415 @@
+# Copyright (C) 2024 Anonymous
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Base New 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/blogrock\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-11T16:14:09+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: blogrock\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Base New"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Base New theme for Wordpress with ACF block.json support"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Anonymous"
+msgstr ""
+
+#: comments.php:20
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:48
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:51
+msgid "at"
+msgstr ""
+
+#: comments.php:51
+msgid "said:"
+msgstr ""
+
+#: comments.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:65
+msgid "Reply"
+msgstr ""
+
+#: comments.php:91
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:91
+msgid "One Response"
+msgstr ""
+
+#: comments.php:91
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:91
+msgid "to"
+msgstr ""
+
+#: comments.php:120
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:41
+#: inc/customizer.php:20
+msgid "Footer"
+msgstr ""
+
+#: footer.php:53
+msgid "Back to top"
+msgstr ""
+
+#: header.php:22
+msgid "Javascript must be enabled for the correct page display"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to Content"
+msgstr ""
+
+#: header.php:36
+msgid "Menu"
+msgstr ""
+
+#: header.php:43
+msgid "Primary"
+msgstr ""
+
+#: inc/acf-gutenberg-blocks.php:29
+msgid "Custom ACF Blocks"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:20
+msgid "The most recent posts from specific category on your site"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:22
+msgid "Recent Posts From Specific Category"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:54
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:145
+msgid "Title:"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:152
+msgid "Category:"
+msgstr ""
+
+#: inc/classes/class-widget-recent-posts-from-category.php:164
+msgid "Number of posts to show:"
+msgstr ""
+
+#. translators: post type general name
+#: inc/cpt.php:21
+msgctxt "Post type general name"
+msgid "%s"
+msgstr ""
+
+#. translators: post type singular Name
+#: inc/cpt.php:23
+msgctxt "Post type singular Name"
+msgid "%s"
+msgstr ""
+
+#. translators: posts admin menu link text
+#: inc/cpt.php:25
+msgctxt "Admin Menu text"
+msgid "%s"
+msgstr ""
+
+#. translators: posts add new on toolbar text
+#: inc/cpt.php:27
+msgctxt "Add New on Toolbar"
+msgid "%s"
+msgstr ""
+
+#. translators: add new post link label
+#. translators: add new post button label
+#: inc/cpt.php:29
+#: inc/cpt.php:31
+msgid "Add New %s"
+msgstr ""
+
+#. translators: new post item label
+#: inc/cpt.php:33
+msgid "New %s"
+msgstr ""
+
+#. translators: edit post link text
+#: inc/cpt.php:35
+msgid "Edit %s"
+msgstr ""
+
+#. translators: view post link text
+#: inc/cpt.php:37
+msgid "View %s"
+msgstr ""
+
+#. translators: all posts link text
+#: inc/cpt.php:39
+msgid "All %s"
+msgstr ""
+
+#. translators: search posts label
+#: inc/cpt.php:41
+msgid "Search %s"
+msgstr ""
+
+#. translators: parent post item label
+#: inc/cpt.php:43
+msgid "Parent %s"
+msgstr ""
+
+#. translators: not found posts text
+#: inc/cpt.php:45
+msgid "No %s found."
+msgstr ""
+
+#. translators: trash not found posts text
+#: inc/cpt.php:47
+msgid "No %s found in Trash."
+msgstr ""
+
+#. translators: update post button text
+#: inc/cpt.php:49
+msgid "Update %s"
+msgstr ""
+
+#: inc/cpt.php:61
+msgid "Article"
+msgstr ""
+
+#: inc/cpt.php:61
+msgid "Articles"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Footer copyright"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Footer logo"
+msgstr ""
+
+#. translators: message for the administrator about disabled site indexing.
+#: inc/default.php:19
+msgid "You are blocking access to robots. You must go to your <a href=\"%s\">Reading</a> settings and uncheck the box for Search Engine Visibility."
+msgstr ""
+
+#: inc/default.php:230
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: inc/default.php:231
+msgid "Password:"
+msgstr ""
+
+#: inc/default.php:231
+msgid "Submit"
+msgstr ""
+
+#: inc/default.php:265
+msgid "Date archive link"
+msgstr ""
+
+#: inc/default.php:269
+msgid "Type"
+msgstr ""
+
+#: inc/default.php:285
+msgid "Day"
+msgstr ""
+
+#: inc/default.php:286
+msgid "Month"
+msgstr ""
+
+#: inc/default.php:287
+msgid "Year"
+msgstr ""
+
+#: inc/menus.php:16
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/menus.php:17
+msgid "Footer Navigation"
+msgstr ""
+
+#: inc/sidebars.php:18
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/theme-functions.php:18
+msgid "gray"
+msgstr ""
+
+#: inc/theme-functions.php:23
+msgid "black"
+msgstr ""
+
+#: inc/theme-functions.php:28
+msgid "white"
+msgstr ""
+
+#: inc/theme-functions.php:107
+#: inc/theme-functions.php:108
+msgid "Reusable Blocks"
+msgstr ""
+
+#: page.php:25
+#: pages/template-full-width.php:20
+#: template-parts/meta.php:19
+msgid "Edit"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search …"
+msgstr ""
+
+#: searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-single/pager-single.php:10
+msgid "Previous:"
+msgstr ""
+
+#: template-parts/content-single/pager-single.php:11
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content/content.php:21
+msgid "Permalink to: "
+msgstr ""
+
+#: template-parts/content/content.php:22
+msgid "Read more"
+msgstr ""
+
+#. translators: %s: post category link.
+#: template-parts/meta.php:14
+msgid "Posted in %s"
+msgstr ""
+
+#: template-parts/meta.php:17
+msgid "No Comments"
+msgstr ""
+
+#: template-parts/meta.php:17
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/meta.php:17
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/meta.php:18
+msgid "<li>Tags: "
+msgstr ""
+
+#: template-parts/not-found.php:13
+msgid "Not Found"
+msgstr ""
+
+#: template-parts/not-found.php:16
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: template-parts/pager.php:10
+msgid "Previous page"
+msgstr ""
+
+#: template-parts/pager.php:11
+msgid "Next page"
+msgstr ""
+
+#: template-parts/published-info.php:15
+msgid "by"
+msgstr ""
+
+#: template-parts/social-links.php:10
+msgid "Social links"
+msgstr ""
+
+#: template-parts/social-links.php:17
+msgid "Social link"
+msgstr ""
+
+#: template-parts/wpml-lang-custom-switcher.php:16
+msgid "Language switcher"
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block title"
+msgid "Image text"
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block description"
+msgid "A custom 'Image Text' block."
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr ""
+
+#: blocks/image-text/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr ""

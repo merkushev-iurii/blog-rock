@@ -1,0 +1,38 @@
+.testimonials-section {
+	 padding: 50px 0;
+	 background-size: cover;
+	 background-position: 50% 50%;
+}
+ @media (min-width: 768px) {
+	 .testimonials-section {
+		 padding: 176px 0;
+		 min-height: 556px;
+		 margin: 0 0 83px;
+	}
+}
+ .testimonials-section .title {
+	 display: block;
+	 color: #00e6ca;
+	 font: 400 24px/1.5 'Mulish', 'Spartan', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+ .testimonials-section .sub-title {
+	 color: #fff;
+}
+ @media (min-width: 768px) {
+	 .testimonials-section .list-testimonials .sub-col {
+		 padding: 0 30px;
+	}
+}
+ .testimonials-section blockquote {
+	 color: #fff;
+	 font: 400 16px/1.75 'Mulish', 'Spartan', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+ .testimonials-section blockquote p {
+	 font-style: italic;
+	 margin: 0;
+}
+ .testimonials-section blockquote cite {
+	 font-style: normal;
+	 font-size: 12px;
+}
+ 

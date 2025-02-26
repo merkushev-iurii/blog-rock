@@ -1,0 +1,40 @@
+.contact-section {
+	padding: 12px 0;
+	text-align: center;
+	.section-title {
+		margin: 0 0 53px;
+	}
+	.block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 20px;
+		.icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			background: $blue;
+			margin: 0 0 22px;
+			img {
+				max-width: 50px;
+				max-height: 50px;
+			}
+		}
+		h3 {
+			margin: 0 0 27px;
+		}
+		.text {
+			font: 400 22px/28px $base-font-sans-serif;
+			a {
+				color: $black;
+				&:hover {
+					color: $green;
+				}
+			}
+		}
+	}
+}

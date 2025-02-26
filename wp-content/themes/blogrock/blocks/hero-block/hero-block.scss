@@ -1,0 +1,81 @@
+.hero-section {
+	padding: 50px 0;
+	@include media("≥desktop") {
+		padding: 42px 0 108px;
+	}
+	.container {
+		max-width: 1400px;
+	}
+	.row {
+		flex-direction: column-reverse;
+		@include media("≥desktop") {
+			flex-direction: row;
+		}
+	}
+	.section-title {
+		font: 700 24px/34px $base-font-sans-serif;
+		@include media("≥tablet") {
+			font-family: $secondary-font-sans-serif;
+			font-size: 40px;
+			line-height: 1.466;
+		}
+		@include media("≥desktop") {
+			font-size: 50px;
+		}
+		@include media("≥widescreen") {
+			font-size: 60px;
+		}
+	}
+	.image-holder {
+		text-align: right;
+		padding: 15px 0 0 15px;
+		position: relative;
+		margin: 0 25px 27px;
+		@include media("≥desktop") {
+			margin: 0;
+			padding: 52px 0 0 55px;
+		}
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 15px;
+			right: 15px;
+			content: "";
+			background: $green;
+			z-index: -1;
+			@include media("≥desktop") {
+				top: 10px;
+				left: -24px;
+				bottom: 112px;
+				right: 150px;
+			}
+		}
+	}
+	.text-holder {
+		padding: 0 25px;
+		@include media("≥desktop") {
+			padding: 0 10px 0 0;
+		}
+	}
+	.tag {
+		margin: 0 0 5px;
+		@include media("≥desktop") {
+			margin: 0 0 25px;
+		}
+		span {
+			display: inline-block;
+			background: $purple;
+			color: $white;
+			padding: 6px 10px 8px;
+			font: 400 12px/1 $base-font-sans-serif;
+			margin-bottom: 5px;
+		}
+	}
+	.text {
+		font: 400 18px/28px $base-font-sans-serif;
+		@include media("≥desktop") {
+			font-size: 22px;
+		}
+	}
+}

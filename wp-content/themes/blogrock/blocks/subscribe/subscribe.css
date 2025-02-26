@@ -1,0 +1,74 @@
+.subscribe-section {
+	 padding: 20px 25px;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section {
+		 padding: 20px 0 38px;
+	}
+}
+ .subscribe-section .box-holder {
+	 background: #2820fc;
+	 padding: 50px 32px 46px;
+	 text-align: center;
+	 color: #fff;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section .box-holder {
+		 padding: 45px 60px;
+	}
+}
+ .subscribe-section .section-title {
+	 margin: 0 0 15px;
+}
+ .subscribe-section .text {
+	 max-width: 680px;
+	 margin: 0 auto 17px;
+	 font: 400 18px/28px 'Mulish', 'Spartan', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section .text {
+		 font-size: 22px;
+		 margin-bottom: 15px;
+	}
+}
+ .subscribe-section .holder-form {
+	 display: inline-flex;
+	 align-items: center;
+	 flex-direction: column;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section .holder-form {
+		 flex-direction: row;
+	}
+}
+ .subscribe-section .holder-form label {
+	 height: auto;
+	 margin: 0 0 15px;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section .holder-form label {
+		 margin: 0 15px 0 0;
+	}
+}
+ .subscribe-section .holder-form input[type='email'] {
+	 min-width: 240px;
+	 border: none;
+	 background: rgba(255, 255, 255, 0.1);
+	 border-bottom: 1px solid #fff;
+	 padding: 12px 10px 11px;
+	 font-size: 14px;
+}
+ @media (min-width: 768px) {
+	 .subscribe-section .holder-form input[type='email'] {
+		 min-width: 327px;
+	}
+}
+ .subscribe-section .holder-form input[type='email']::placeholder {
+	 color: #fff;
+}
+ .subscribe-section .holder-form input[type='submit'] {
+	 min-width: 170px;
+	 padding: 8px 10px 7px;
+	 font: 400 16px/28px 'Spartan', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+ 

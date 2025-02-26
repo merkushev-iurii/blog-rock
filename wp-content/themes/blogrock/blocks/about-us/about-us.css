@@ -1,0 +1,130 @@
+.about-section .row-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+  .about-section .row-holder {
+    margin: 0 -15px;
+  }
+}
+.about-section.image-type-landscape {
+  padding: 20px 10px;
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape {
+    padding: 20px 0 45px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape .row-holder {
+    flex-direction: row-reverse;
+  }
+}
+.about-section.image-type-landscape .column {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape .column {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape .column:first-child {
+    padding-top: 53px;
+  }
+}
+.about-section.image-type-landscape .column .text-holder {
+  margin: 0 0 30px;
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape .column .text-holder {
+    margin: 0 0 0 -24px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section.image-type-landscape .column .image-holder {
+    margin-right: -24px;
+  }
+}
+.about-section.image-type-portrait {
+  padding: 20px 10px;
+}
+@media (min-width: 992px) {
+  .about-section.image-type-portrait {
+    padding: 20px 0 15px;
+  }
+}
+.about-section.image-type-portrait .row-holder {
+  flex-direction: column-reverse;
+}
+@media (min-width: 768px) {
+  .about-section.image-type-portrait .row-holder {
+    flex-direction: row-reverse;
+  }
+}
+.about-section.image-type-portrait .column:last-child {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .about-section.image-type-portrait .column:last-child {
+    width: 37%;
+  }
+}
+.about-section.image-type-portrait .column:first-child {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .about-section.image-type-portrait .column:first-child {
+    width: 63%;
+    padding-top: 53px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section.image-type-portrait .column:first-child {
+    padding-top: 117px;
+  }
+}
+@media (min-width: 768px) {
+  .about-section.image-type-portrait .text-holder {
+    margin: 0 0 0 -24px;
+    padding: 40px 75px 40px 40px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section.image-type-portrait .text-holder {
+    margin: 0 0 0 -78px;
+    padding: 40px 75px 40px 40px;
+  }
+}
+.about-section.image-type-portrait .image-holder {
+  margin: 0 0 30px;
+}
+@media (min-width: 768px) {
+  .about-section.image-type-portrait .image-holder {
+    margin-right: -20px;
+  }
+}
+.about-section .image-holder img {
+  width: 100%;
+}
+.about-section .text-holder {
+  color: #000;
+  background: #f7f7f7;
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+}
+.about-section .sub-title {
+  display: block;
+  margin: 0 0 29px;
+  font: 400 22px/28px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.about-section .section-title {
+  margin: 0 0 28px;
+}
+.about-section .text {
+  font: 400 22px/28px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.about-section .text p {
+  margin: 0 0 28px;
+}

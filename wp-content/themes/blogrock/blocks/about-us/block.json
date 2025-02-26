@@ -1,0 +1,23 @@
+{
+	"name": "acf/about-us",
+    "title": "About Us",
+    "description": "A custom 'About Us' block.",
+    "style": [ "file:./about-us.css" ],
+	"viewScript": "about-us",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "text", "title", "link"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "about-us.php"
+    }
+}

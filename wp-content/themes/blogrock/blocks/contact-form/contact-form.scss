@@ -1,0 +1,69 @@
+.contact-form-section {
+	padding: 20px 0;
+	@include media("≥tablet") {
+		padding: 62px 0 20px;
+	}
+	&.image-position-left {
+		.row {
+			flex-direction: column-reverse;
+			@include media("≥tablet") {
+				flex-direction: row-reverse;
+			}
+		}
+		.text-holder {
+			@include media("≥tablet") {
+				padding-left: 15px;
+			}
+		}
+		.image-holder {
+			margin-bottom: 20px;
+			@include media("≥tablet") {
+				padding-right: 15px;
+				margin-bottom: 0;
+			}
+		}
+	}
+	&.image-position-right {
+		.row {
+			flex-direction: column-reverse;
+			@include media("≥tablet") {
+				flex-direction: row;
+			}
+		}
+		.text-holder {
+			@include media("≥tablet") {
+				padding-right: 15px;
+			}
+		}
+		.image-holder {
+			margin-bottom: 20px;
+			@include media("≥tablet") {
+				padding-left: 15px;
+				margin-bottom: 0;
+			}
+		}
+	}
+	form {
+		p {
+			margin: 0;
+		}
+		label {
+			display: block;
+			margin: 0 0 20px;
+			br {
+				display: none;
+			}
+
+		}
+		.wpcf7-not-valid-tip {
+			font-size: 12px;
+		}
+		.wpcf7-submit {
+			float: right;
+		}
+		.wpcf7-response-output {
+			text-align: center;
+			font-size: 12px;
+		}
+	}
+}

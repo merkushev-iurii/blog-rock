@@ -1,0 +1,23 @@
+{
+	"name": "acf/testimonials",
+    "title": "Testimonials block",
+    "description": "A custom 'Testimonials' block.",
+    "style": [ "file:./testimonials.css", "slick" ],
+	"viewScript": ["testimonials", "slick"],
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "title", "text"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "testimonials.php"
+    }
+}

@@ -1,0 +1,90 @@
+#footer {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+	@include media("≥desktop") {
+		text-align: left;
+	}
+	.holder {
+		border-top: 1px solid #dbdbdb;
+		padding: 40px 0 20px;
+		@include media("≥desktop") {
+			border-top: 1px solid $dark;
+			padding: 60px 0 73px;
+		}
+	}
+	.footer-logo {
+		padding-top: 5px;
+		width: 77px;
+		margin: 0 auto 22px;
+		@include media("≥desktop") {
+			margin: 0 0 21px;
+		}
+		a {
+			display: block;
+		}
+	}
+	.text {
+		max-width: 380px;
+		margin: 0 auto 51px;
+		@include media("≥desktop") {
+			margin: 0 0 22px;
+		}
+	}
+	.copyright {
+		font: 400 14px/24px $base-font-sans-serif;
+	}
+	.footer-widget {
+		margin: 0 0 38px;
+		h3 {
+			color: #bdbdbd;
+			margin: 0 0 15px;
+			font-size: 20px;
+		}
+		ul {
+			@extend %listreset;
+			li {
+				margin: 0 0 2px;
+			}
+			a {
+				font-weight: 600;
+				color: $black;
+				&:hover {
+					color: $green;
+				}
+			}
+		}
+	}
+	.social-links {
+		@extend %listreset;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 57px;
+		@include media("≥desktop") {
+			justify-content: flex-start;
+			margin: 0;
+		}
+		li {
+			margin: 0 20px;
+			@include media("≥desktop") {
+				margin: 0 40px 0 0;
+			}
+			a {
+				width: 24px;
+				height: 24px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				&:hover {
+					opacity: 0.85;
+				}
+			}
+			img {
+				max-width: 24px;
+				max-height: 17px;
+				width: auto;
+			}
+		}
+	}
+}

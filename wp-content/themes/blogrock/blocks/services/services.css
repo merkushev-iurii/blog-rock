@@ -1,0 +1,74 @@
+.home .services-section {
+  padding: 12px 0 18px;
+}
+.home .services-section .btn {
+  background: #2820FC;
+  border-color: #2820FC;
+}
+.home .services-section .btn:hover {
+  background: #39f;
+  border-color: #39f;
+}
+
+.services-section {
+  padding: 12px 0 80px;
+  text-align: center;
+}
+.services-section .section-title {
+  margin: 0 0 32px;
+}
+.services-section .sub-title {
+  max-width: 600px;
+  margin: 0 auto 48px;
+}
+.services-section .col-12:last-child .block {
+  margin: 0 0 58px;
+}
+@media (min-width: 768px) {
+  .services-section .col-12:last-child .block {
+    margin: 0 0 20px;
+  }
+}
+.services-section .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 80px;
+  padding: 0 25px;
+}
+@media (min-width: 768px) {
+  .services-section .block {
+    margin: 0 0 20px;
+    padding: 0 15px;
+  }
+}
+.services-section .block .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #F551FF;
+  margin: 0 0 35px;
+}
+.services-section .block .icon img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.services-section .block h4 {
+  margin: 0 0 29px;
+  font-size: 30px;
+  line-height: 44px;
+}
+.services-section .block .text {
+  margin: 0 0 28px;
+  font: 400 18px/28px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.services-section .block .text a {
+  color: #000;
+}
+.services-section .block .text a:hover {
+  color: #00E6CA;
+}

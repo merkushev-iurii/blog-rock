@@ -1,0 +1,72 @@
+.contact-form-section {
+    padding: 20px 0;
+}
+@media (min-width: 768px) {
+    .contact-form-section {
+        padding: 62px 0 20px;
+    }
+}
+.contact-form-section.image-position-left .row {
+    flex-direction: column-reverse;
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-left .row {
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-left .text-holder {
+        padding-left: 15px;
+    }
+}
+.contact-form-section.image-position-left .image-holder {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-left .image-holder {
+        padding-right: 15px;
+        margin-bottom: 0;
+    }
+}
+.contact-form-section.image-position-right .row {
+    flex-direction: column-reverse;
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-right .row {
+        flex-direction: row;
+    }
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-right .text-holder {
+        padding-right: 15px;
+    }
+}
+.contact-form-section.image-position-right .image-holder {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .contact-form-section.image-position-right .image-holder {
+        padding-left: 15px;
+        margin-bottom: 0;
+    }
+}
+.contact-form-section form p {
+    margin: 0;
+}
+.contact-form-section form label {
+    display: block;
+    margin: 0 0 20px;
+}
+.contact-form-section form label br {
+    display: none;
+}
+.contact-form-section form .wpcf7-not-valid-tip {
+    font-size: 12px;
+}
+.contact-form-section form .wpcf7-submit {
+    float: right;
+}
+.contact-form-section form .wpcf7-response-output {
+    text-align: center;
+    font-size: 12px;
+}

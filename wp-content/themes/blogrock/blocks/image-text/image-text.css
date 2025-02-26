@@ -1,0 +1,68 @@
+.image-text-section {
+	 padding: 30px 0;
+}
+ .image-text-section .section-title {
+	 margin: 0 0 29px;
+}
+ .image-text-section .row {
+	 flex-wrap: wrap;
+}
+ .image-text-section .row .col-12 {
+	 flex: auto;
+}
+ .image-text-section p {
+	 margin: 0 0 29px;
+}
+ .image-text-section p:last-child {
+	 margin: 0;
+}
+ .image-text-section img {
+	 width: 100%;
+}
+ .image-text-section.image-position-left .row {
+	 flex-direction: column;
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-left .row {
+		 flex-direction: row-reverse;
+	}
+}
+ .image-text-section.image-position-left .text-holder {
+	 margin-bottom: 20px;
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-left .text-holder {
+		 padding-left: 15px;
+		 padding-right: 30px;
+		 margin-bottom: 0;
+	}
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-left .image-holder {
+		 padding-right: 15px;
+	}
+}
+ .image-text-section.image-position-right .row {
+	 flex-direction: column;
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-right .row {
+		 flex-direction: row;
+	}
+}
+ .image-text-section.image-position-right .text-holder {
+	 margin-bottom: 20px;
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-right .text-holder {
+		 padding-right: 15px;
+		 padding-left: 30px;
+		 margin-bottom: 0;
+	}
+}
+ @media (min-width: 768px) {
+	 .image-text-section.image-position-right .image-holder {
+		 padding-left: 15px;
+	}
+}
+ 

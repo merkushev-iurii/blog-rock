@@ -1,0 +1,23 @@
+{
+	"name": "acf/banner",
+    "title": "Banner block",
+    "description": "A custom 'Banner' block.",
+    "style": [ "file:./banner.css" ],
+	"viewScript": "banner",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "title", "bg-image"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "banner.php"
+    }
+}

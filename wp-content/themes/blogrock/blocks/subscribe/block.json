@@ -1,0 +1,23 @@
+{
+	"name": "acf/subscribe",
+    "title": "Subscribe",
+    "description": "A custom 'Subscribe' block.",
+    "style": [ "file:./subscribe.css" ],
+	"viewScript": "subscribe",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["title", "text", "form"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "subscribe.php"
+    }
+}

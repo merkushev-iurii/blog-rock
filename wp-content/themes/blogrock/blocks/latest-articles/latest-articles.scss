@@ -1,0 +1,146 @@
+.latest-articles-section {
+	padding: 36px 0;
+	.title {
+		text-align: center;
+		margin: 0 0 62px;
+		@include media("≥desktop") {
+			margin: 0 0 38px;
+		}
+	}
+	.latest-articles {
+		margin: 0 -30px;
+		>.col {
+			padding: 0 30px;
+			flex: auto;
+		}
+	}
+	.article {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -20px 65px;
+		@include media("≥desktop") {
+			margin: 0 -20px 80px;
+		}
+		.sub-col {
+			width: 100%;
+			padding: 0 30px;
+			@include media("≥desktop") {
+				padding: 0 20px;
+			}
+			&:first-child {
+				@include media("≥desktop") {
+					width: 47.5%;
+				}
+			}
+			&:last-child {
+				@include media("≥desktop") {
+					width: 52.5%;
+				}
+			}
+		}
+		.image-holder {
+			position: relative;
+			margin-left: 15px;
+			margin-bottom: 30px;
+			@include media("≥desktop") {
+				margin: 0;
+			}
+			&:after {
+				position: absolute;
+				top: -15px;
+				left: -15px;
+				bottom: 15px;
+				right: 15px;
+				content: "";
+				z-index: -1;
+				background: $green;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.post-tags {
+			margin: -4px 0 8px;
+			@include media("≥desktop") {
+				margin: -4px 0 11px;
+			}
+			a {
+				display: inline-block;
+				background: $purple;
+				color: $white;
+				padding: 6px 10px 8px;
+				font: 400 12px/1 $base-font-sans-serif;
+				margin-bottom: 5px;
+				&:hover {
+					background: $light-blue;
+				}
+			}
+		}
+		.article-title {
+			margin: 0 0 16px;
+			line-height: 1.6;
+			font-family: $base-font-sans-serif;
+			@include media("≥desktop") {
+				margin: 0 0 15px;
+				line-height: 1.416;
+			}
+			a {
+				color: $dark;
+				text-decoration: none;
+				&:hover {
+					color: $gray;
+				}
+			}
+		}
+		.article-meta {
+			font: 400 12px/1 $base-font-sans-serif;
+			color: $gray;
+			display: flex;
+			align-items: center;
+			margin: 0 0 18px;
+			@include media("≥desktop") {
+				margin: 0 0 20px;
+			}
+			.comments {
+				padding-left: 10px;
+				a {
+					display: flex;
+					align-items: center;
+				}
+			}
+			a {
+				color: inherit;
+				&:hover {
+					color: $dark;
+				}
+			}
+			.icon {
+				font-size: 17px;
+				margin-right: 5px;
+			}
+		}
+		.article-excerpt {
+			margin: 0 0 20px;
+			@include media("≥desktop") {
+				margin: 0 0 10px;
+			}
+		}
+		.author {
+			img {
+				border-radius: 50%;
+			}
+			.author-name {
+				text-transform: capitalize;
+				color: #bdbdbd;
+				margin-left: 4px;
+				font: 600 18px/1 $base-font-sans-serif;
+				&:hover {
+					color: $dark;
+				}
+			}
+		}
+	}
+	.view-all {
+		text-align: center;
+	}
+}

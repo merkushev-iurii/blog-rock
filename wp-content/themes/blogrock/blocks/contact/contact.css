@@ -1,0 +1,40 @@
+.contact-section {
+    padding: 12px 0;
+    text-align: center;
+}
+.contact-section .section-title {
+    margin: 0 0 53px;
+}
+.contact-section .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.contact-section .block .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #2820fc;
+    margin: 0 0 22px;
+}
+.contact-section .block .icon img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.contact-section .block h3 {
+    margin: 0 0 27px;
+}
+.contact-section .block .text {
+    font: 400 22px/28px Mulish, Spartan, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.contact-section .block .text a {
+    color: #000;
+}
+.contact-section .block .text a:hover {
+    color: #00e6ca;
+}

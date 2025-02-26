@@ -1,0 +1,264 @@
+#header {
+	padding: 0;
+	background: $white;
+	position: relative;
+	z-index: 100;
+	@include media("≥tablet") {
+		padding: 45px 0;
+	}
+	.container {
+		padding: 0 20px;
+		position: relative;
+		@include media("≥tablet") {
+			padding: 0 15px;
+		}
+	}
+	.logo {
+		width: 77px;
+		padding-top: 8px;
+		@include media("≥tablet") {
+			width: 138px;
+		}
+		a {
+			display: block;
+		}
+	}
+	.nav-holder {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		width: calc(100% - 77px);
+		@include media("≥tablet") {
+			width: calc(100% - 138px);
+			flex-direction: row-reverse;
+			justify-content: flex-start;
+		}
+	}
+	.menu-toggle {
+		width: 63px;
+		height: 77px;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 0;
+		font-size: 19px;
+		background: none;
+		color: $black;
+		min-width: 0;
+		@include media("≥tablet") {
+			display: none;
+		}
+	}
+	.search-toggle {
+		width: 63px;
+		height: 77px;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 0;
+		font-size: 19px;
+		background: none;
+		margin-left: 4px;
+		color: $black;
+		min-width: 0;
+	}
+	.form-wrap {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		padding: 20px;
+		background: $light-gray;
+		justify-content: flex-end;
+		@include media("≥tablet") {
+			padding: 15px 20px;
+		}
+		.search-form {
+			position: relative;
+			label {
+				margin: 0;
+			}
+			.search-field {
+				border: 0;
+				padding: 15px 52px 20px 10px;
+				width: 290px;
+				font-size: 14px;
+				background: transparent;
+				border-bottom: 1px solid $black;
+			}
+			.search-submit {
+				position: absolute;
+				top: 0;
+				right: 10px;
+				padding: 0;
+				border: 0;
+				background-color: transparent;
+				width: 28px;
+				height: 28px;
+				font-size: 0;
+				line-height: 0;
+				min-width: 0;
+				background-image: url(images/search.png);
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+			}
+		}
+	}
+	.primary-nav-wrapper {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background: $light-gray;
+		@include media("≥tablet") {
+			display: block;
+			position: static;
+			background: none;
+		}
+	}
+	.header-navigation {
+		@extend %listreset;
+		font: 600 17px/1 $secondary-font-sans-serif;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		padding: 20px;
+		@include media("≥tablet") {
+			font-size: 15px;
+			padding: 0;
+		}
+		@include media("≥desktop") {
+			font-size: 17px;
+		}
+		li {
+			width: 100%;
+			margin: 0 0 30px;
+			@include media("≥tablet") {
+				margin: 0 12px;
+				width: auto;
+			}
+			@include media("≥desktop") {
+				margin: 0 22px 0 21px;
+			}
+			a {
+				position: relative;
+				color: $black;
+				&:before {
+					position: absolute;
+					bottom: -2px;
+					left: 0;
+					right: 100%;
+					height: 2px;
+					content: "";
+					background: $green;
+					transition: all 0.3s;
+				}
+				&:hover {
+					&:before {
+						right: 0;
+					}
+				}
+			}
+			&.active {
+				>a {
+					&:before {
+						right: 0;
+					}
+				}
+			}
+			&.menu-item-has-children {
+				position: relative;
+				padding-right: 20px;
+				&:after {
+					position: absolute;
+					top: 4px;
+					right: 0;
+					font-family: 'icomoon';
+					content: "\e904";
+					font-size: 10px;
+				}
+				&.hover {
+					>a {
+						&:before {
+							right: 0;
+						}
+					}
+					.drop-holder {
+						display: block;
+						&:before {
+							position: absolute;
+							content: "";
+							bottom: 100%;
+							left: 0;
+							right: 0;
+							height: 24px;
+							content: "";
+							background: transparent;
+						}
+					}
+				}
+				.drop-holder {
+					display: none;
+					padding: 30px 10px;
+					background: #f3f3f3;
+					@include media("≥tablet") {
+						background: $light-gray;
+						position: absolute;
+						top: calc(100% + 24px);
+						left: 0;
+						width: 208px;
+						padding: 29px 10px;
+					}
+					ul {
+						@extend %listreset;
+						font: 400 18px/1 $base-font-sans-serif;
+						li {
+							margin: 0 0 26px;
+							padding: 0;
+							&:last-child {
+								margin: 0;
+							}
+							a {
+								padding: 5px 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.search-active {
+	#header{
+		.form-wrap {
+			display: flex;
+		}
+		.search-toggle {
+			background: $light-gray;
+			.icon:before {
+				content: "\e910";
+			}
+		}
+	}
+}
+@include media("<tablet") {
+	.nav-active {
+		#header {
+			.menu-toggle {
+				background: $light-gray;
+				.icon:before {
+					content: "\e910";
+				} 
+			}
+			.primary-nav-wrapper {
+				display: block;
+			}
+		}
+	}
+}

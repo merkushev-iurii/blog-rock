@@ -1,0 +1,23 @@
+{
+	"name": "acf/image-text",
+    "title": "Image text",
+    "description": "A custom 'Image Text' block.",
+    "style": [ "file:./image-text.css" ],
+	"viewScript": "image-text",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "text"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "image-text.php"
+    }
+}

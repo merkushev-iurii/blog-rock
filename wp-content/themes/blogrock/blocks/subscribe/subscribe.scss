@@ -1,0 +1,61 @@
+.subscribe-section {
+	padding: 20px 25px;
+	@include media("≥tablet") {
+		padding: 20px 0 38px;
+	}
+	.box-holder {
+		background: $blue;
+		padding: 50px 32px 46px;
+		text-align: center;
+		color: $white;
+		@include media("≥tablet") {
+			padding: 45px 60px;
+		}
+	}
+	.section-title {
+		margin: 0 0 15px;
+	}
+	.text {
+		max-width: 680px;
+		margin: 0 auto 17px;
+		font: 400 18px/28px $base-font-sans-serif;
+		@include media("≥tablet") {
+			font-size: 22px;
+			margin-bottom: 15px;
+		}
+	}
+	.holder-form {
+		display: inline-flex;
+		align-items: center;
+		flex-direction: column;
+		@include media("≥tablet") {
+			flex-direction: row;
+		}
+		label {
+			height: auto;
+			margin: 0 0 15px;
+			@include media("≥tablet") {
+				margin: 0 15px 0 0;
+			}
+		}
+		input[type='email'] {
+			min-width: 240px;
+			border: none;
+			background: rgba($white, 0.1);
+			border-bottom: 1px solid $white;
+			padding: 12px 10px 11px;
+			font-size: 14px;
+			@include media("≥tablet") {
+				min-width: 327px;
+			}
+			@include placeholder {
+				color: $white;
+			}
+		}
+		input[type='submit'] {
+			min-width: 170px;
+			padding: 8px 10px 7px;
+			font: 400 16px/28px $secondary-font-sans-serif;
+		}
+	}
+}

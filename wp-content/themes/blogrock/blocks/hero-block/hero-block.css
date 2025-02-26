@@ -1,0 +1,101 @@
+.hero-section {
+  padding: 50px 0;
+}
+@media (min-width: 992px) {
+  .hero-section {
+    padding: 42px 0 108px;
+  }
+}
+.hero-section .container {
+  max-width: 1400px;
+}
+.hero-section .row {
+  flex-direction: column-reverse;
+}
+@media (min-width: 992px) {
+  .hero-section .row {
+    flex-direction: row;
+  }
+}
+.hero-section .section-title {
+  font: 700 24px/34px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+@media (min-width: 768px) {
+  .hero-section .section-title {
+    font-family: "Spartan", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 40px;
+    line-height: 1.466;
+  }
+}
+@media (min-width: 992px) {
+  .hero-section .section-title {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-section .section-title {
+    font-size: 60px;
+  }
+}
+.hero-section .image-holder {
+  text-align: right;
+  padding: 15px 0 0 15px;
+  position: relative;
+  margin: 0 25px 27px;
+}
+@media (min-width: 992px) {
+  .hero-section .image-holder {
+    margin: 0;
+    padding: 52px 0 0 55px;
+  }
+}
+.hero-section .image-holder:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 15px;
+  right: 15px;
+  content: "";
+  background: #00E6CA;
+  z-index: -1;
+}
+@media (min-width: 992px) {
+  .hero-section .image-holder:after {
+    top: 10px;
+    left: -24px;
+    bottom: 112px;
+    right: 150px;
+  }
+}
+.hero-section .text-holder {
+  padding: 0 25px;
+}
+@media (min-width: 992px) {
+  .hero-section .text-holder {
+    padding: 0 10px 0 0;
+  }
+}
+.hero-section .tag {
+  margin: 0 0 5px;
+}
+@media (min-width: 992px) {
+  .hero-section .tag {
+    margin: 0 0 25px;
+  }
+}
+.hero-section .tag span {
+  display: inline-block;
+  background: #F551FF;
+  color: #fff;
+  padding: 6px 10px 8px;
+  font: 400 12px/1 "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  margin-bottom: 5px;
+}
+.hero-section .text {
+  font: 400 18px/28px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+@media (min-width: 992px) {
+  .hero-section .text {
+    font-size: 22px;
+  }
+}

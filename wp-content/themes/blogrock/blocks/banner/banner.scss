@@ -1,0 +1,48 @@
+.banner-section {
+	padding: 28px 0;
+	.block {
+		padding: 40px 0;
+		text-align: center;
+		position: relative;
+		background-size: cover;
+		background-position: 50% 50%;
+		@include media("≥desktop") {
+			padding: 84px 0;
+		}
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			content: "";
+			background: rgba($blue, 0.75);
+		}
+	}
+	.text-holder {
+		color: $white;
+		position: relative;
+		z-index: 2;
+		max-width: 670px;
+		margin: 0 auto;
+	}
+	.section-title {
+		margin: 0 0 27px;
+	}
+	.btn {
+		color: $white;
+		font: 600 16px/28px $secondary-font-sans-serif;
+		padding: 6px 50px 4px 20px;
+		position: relative;
+		border-radius: 0;
+		&:after {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			font-family: 'icomoon';
+			content: "\e902";
+			right: 20px;
+			font-weight: normal;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"name": "acf/contact",
+    "title": "Contact block",
+    "description": "A custom 'Contact' block.",
+    "style": [ "file:./contact.css" ],
+	"viewScript": "contact",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["icon", "title", "text"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "contact.php"
+    }
+}

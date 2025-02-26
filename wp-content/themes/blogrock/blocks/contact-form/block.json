@@ -1,0 +1,23 @@
+{
+	"name": "acf/contact-form",
+    "title": "Contact Form",
+    "description": "A custom 'contact form' block.",
+    "style": [ "file:./contact-form.css" ],
+	"viewScript": "contact-form",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "form"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "contact-form.php"
+    }
+}

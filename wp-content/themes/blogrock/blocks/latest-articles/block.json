@@ -1,0 +1,23 @@
+{
+	"name": "acf/latest-articles",
+    "title": "Latest Articles block",
+    "description": "A custom 'Services' block.",
+    "style": [ "file:./latest-articles.css" ],
+	"viewScript": "latest-articles",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["post", "article", "title"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "latest-articles.php"
+    }
+}

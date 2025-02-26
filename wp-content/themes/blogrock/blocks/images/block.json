@@ -1,0 +1,23 @@
+{
+	"name": "acf/images",
+    "title": "Images block",
+    "description": "A custom 'Images' block.",
+    "style": [ "file:./images.css" ],
+	"viewScript": "images",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "images.php"
+    }
+}

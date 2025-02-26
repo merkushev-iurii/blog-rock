@@ -1,0 +1,119 @@
+// Typography
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+  font-family: $headings-font-family;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+  color: $headings-color;
+}
+
+h1, .h1 {
+  font-size: $h1-font-size;
+  line-height: 1.333;
+  letter-spacing: -0.8px;
+  @include media("≥tablet") {
+    font-size: 70px;
+  }
+  @include media("≥desktop") {
+    font-size: 80px;
+  }
+  @include media("≥widescreen") {
+    font-size: 96px;
+    margin: 0 0 67px;
+  }
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+  line-height: 1.466;
+  letter-spacing: -0.7px;
+  @include media("≥tablet") {
+    font-size: 40px;
+  }
+  @include media("≥desktop") {
+    font-size: 50px;
+  }
+  @include media("≥widescreen") {
+    font-size: 60px;
+  }
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+  line-height: 1.4;
+  letter-spacing: -0.4px;
+  @include media("≥tablet") {
+    font-size: 28px;
+  }
+  @include media("≥desktop") {
+    font-size: 34px;
+  }
+  @include media("≥widescreen") {
+    font-size: 40px;
+  }
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+  line-height: 1.466;
+  letter-spacing: -0.35px;
+  @include media("≥tablet") {
+    font-size: 22px;
+  }
+  @include media("≥desktop") {
+    font-size: 26px;
+  }
+  @include media("≥widescreen") {
+    font-size: 30px;
+  }
+}
+
+h5, .h5 {
+  font-size: $h5-font-size;
+  line-height: 1.416;
+  letter-spacing: 0;
+  @include media("≥tablet") {
+    font-size: 18px;
+  }
+  @include media("≥desktop") {
+    font-size: 20px;
+  }
+  @include media("≥widescreen") {
+    font-size: 24px;
+  }
+}
+
+h6, .h6 {
+  font-size: $h6-font-size;
+  line-height: 1.7;
+  letter-spacing: 0;
+  @include media("≥tablet") {
+    font-size: 16px;
+  }
+  @include media("≥desktop") {
+    font-size: 18px;
+  }
+  @include media("≥widescreen") {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: $base-link-color;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"name": "acf/hero-block",
+    "title": "Hero Block",
+    "description": "A custom 'Hero' block.",
+    "style": [ "file:./hero-block.css" ],
+	"viewScript": "hero-block",
+    "category": "custom-acf-blocks",
+    "icon": "align-pull-right",
+    "keywords": ["image", "text", "title", "sub-title"],
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"color": true
+	},
+	"styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" }
+    ],
+	"acf": {
+        "mode": "edit",
+        "renderTemplate": "hero-block.php"
+    }
+}
