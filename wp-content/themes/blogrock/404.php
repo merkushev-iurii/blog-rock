@@ -10,8 +10,10 @@
 get_header();
 ?>
 	<div id="content">
-		<?php get_template_part( 'template-parts/not-found' ); ?>
+		<div class="container">
+			<?php get_template_part( 'template-parts/not-found' ); ?>
+		</div>
 	</div>
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

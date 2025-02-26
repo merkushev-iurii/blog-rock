@@ -10,7 +10,7 @@
 ?>
 <div class="post">
 	<header class="head">
-		<h1><?php esc_html_e( 'Not Found', 'blogrock' ); ?></h1>
+		<h1 class="h3"><?php esc_html_e( 'Not Found', 'blogrock' ); ?></h1>
 	</header>
 	<div class="content">
 		<p><?php esc_html_e( 'Sorry, but you are looking for something that isn\'t here.', 'blogrock' ); ?></p>
