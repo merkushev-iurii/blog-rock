@@ -13219,3 +13219,93 @@ body.single article .article-meta .icon {
   font-size: 25px;
   margin-right: 5px;
 }
+
+.section.comments {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.comment-respond {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-top: 1px solid #f7f7f7;
+}
+.comment-respond .comment-reply-title {
+  font-size: 1.5rem;
+  line-height: 1.466;
+  letter-spacing: -0.35px;
+  margin: 0 0 28px;
+}
+@media (min-width: 768px) {
+  .comment-respond .comment-reply-title {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  .comment-respond .comment-reply-title {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1200px) {
+  .comment-respond .comment-reply-title {
+    font-size: 30px;
+    margin: 0 0 34px;
+  }
+}
+.comment-respond .comment-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.comment-respond .comment-form p {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 0 20px;
+}
+.comment-respond .comment-form p label {
+  font-size: 14px;
+}
+.comment-respond .comment-form p.comment-form-url, .comment-respond .comment-form p.comment-form-email, .comment-respond .comment-form p.comment-form-author {
+  width: 100%;
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .comment-respond .comment-form p.comment-form-url, .comment-respond .comment-form p.comment-form-email, .comment-respond .comment-form p.comment-form-author {
+    width: 33.333%;
+  }
+}
+.comment-respond .comment-form p.comment-form-url input, .comment-respond .comment-form p.comment-form-email input, .comment-respond .comment-form p.comment-form-author input {
+  border: 0;
+  border-bottom: 1px solid #161B3D;
+  background: #f7f7f7;
+  width: 100%;
+  padding: 11px 10px;
+}
+.comment-respond .comment-notes {
+  font: 400 14px/24px "Mulish", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  margin: 0 0 7px;
+}
+.comment-respond .comment-form-cookies-consent {
+  display: none;
+}
+.comment-respond .comment-form-comment textarea {
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 1px solid #161B3D;
+  background: #f7f7f7;
+  width: 100%;
+  height: 204px;
+  min-height: 204px;
+  max-height: 204px;
+}
+.comment-respond .form-submit .submit {
+  height: auto;
+  border: 0;
+  min-width: 212px;
+  padding: 10px 10px 6px;
+  background: #00E6CA;
+  color: #fff;
+  font: 400 16px/28px "Spartan", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}

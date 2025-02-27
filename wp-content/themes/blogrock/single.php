@@ -20,7 +20,7 @@ get_header();
 					<?php get_template_part( 'template-parts/content-single/pager-single', get_post_type() ); ?>
 				</div>
 				<?php
-				//comments_template(); ?>
+				comments_template(); ?>
 				<?php
 			endwhile;
 			?>
