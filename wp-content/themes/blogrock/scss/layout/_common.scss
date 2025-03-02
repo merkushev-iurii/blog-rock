@@ -751,3 +751,14 @@ body.single {
 		}
 	}
 }
+
+#load-more {
+	display: block;
+	margin: 10px auto;
+	max-width: 140px;
+	color: $blue;
+	padding: 0;
+	background: none;
+	font-size: 14px;
+	text-decoration: none;
+}

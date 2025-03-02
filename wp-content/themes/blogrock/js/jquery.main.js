@@ -3,6 +3,47 @@ jQuery(document).ready(function () {
     initTouchNav();
 });
 
+jQuery(document).ready(function ($) {
+    $('#load-more').on('click', function () {
+        let button = $(this),
+            currentPage = parseInt(button.attr('data-page')),
+            maxPages = parseInt(button.attr('data-max-page'));
+
+        if (currentPage >= maxPages) {
+            button.hide(); 
+            return;
+        }
+
+        $.ajax({
+            url: ajax_params.ajax_url,
+            type: 'POST',
+            data: {
+                action: 'load_more_posts',
+                page: currentPage
+            },
+            beforeSend: function () {
+                button.text('Loading More...');
+            },
+            success: function (response) {
+                if (response.success) {
+                    $('.posts-wrapper').append(response.data);
+                    button.attr('data-page', currentPage + 1);
+
+                    if (currentPage + 1 >= maxPages) {
+                        button.hide(); 
+                    }
+                } else {
+                    button.hide();
+                }
+            },
+            error: function () {
+                button.text('Load More');
+            }
+        });
+    });
+});
+
+
 function initMenu() {
     jQuery('.menu-toggle').on('click', function () {
         jQuery('body').toggleClass('nav-active').removeClass('search-active');

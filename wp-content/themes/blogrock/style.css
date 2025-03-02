@@ -11425,6 +11425,7 @@ input[type=submit] {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #main {
@@ -13308,4 +13309,15 @@ body.single article .article-meta .icon {
   background: #00E6CA;
   color: #fff;
   font: 400 16px/28px "Spartan", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+#load-more {
+  display: block;
+  margin: 10px auto;
+  max-width: 140px;
+  color: #2820FC;
+  padding: 0;
+  background: none;
+  font-size: 14px;
+  text-decoration: none;
 }

@@ -31,8 +31,8 @@ get_header();
 	                    <?php get_template_part( 'template-parts/content/content', get_post_type() ); ?>
 	                <?php endwhile; ?>
                 </div>
-
-                <?php get_template_part( 'template-parts/pager' ); ?>
+                <button id="load-more" data-page="1" data-max-page="<?php echo $wp_query->max_num_pages; ?>">Load More</button>
+                <?php //get_template_part( 'template-parts/pager' ); ?>
             <?php else : ?>
                 <?php get_template_part( 'template-parts/not-found' ); ?>
             <?php endif; ?>

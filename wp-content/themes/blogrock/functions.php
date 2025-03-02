@@ -48,3 +48,6 @@ require_once get_stylesheet_directory() . '/inc/acf-gutenberg-blocks.php';
 
 // ACF functions paceholders.
 require_once get_stylesheet_directory() . '/inc/acf-functions-paceholders.php';
+
+//load more
+require_once get_stylesheet_directory() . '/inc/load-more.php';
